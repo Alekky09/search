@@ -96,8 +96,6 @@ svg{
     display: flex;
     align-items: center;
     justify-items: center;
-}
-.logo{
     margin-left: 57px;
 }
 .logo span{
