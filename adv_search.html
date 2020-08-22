@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <nav class="adv-search">
+            <img src="styles/logo.png">
+            <div class="links">
+                <a href="img_search.html">Image Search</a>
+                <a href="index.html">Google Search</a>
+            </div>
+        </nav>
+        <span class="adv-search-logo">Advanced Search</span>
+        <div class="adv-search-main">
+            <div class="adv-search-form-headers">
+                <span>Find pages with...</span>
+                <span class="to-do-header">To do this in the search box.</span>
+            </div>
+            <form class="adv-search-form" action="https://google.com/search">
+                <div class="adv-search-form-container">
+                    <div class="adv-search-bar">
+                        <small>all these words:</small>
+                        <input type="text" name="as_q" class="">
+                    </div>
+                    <div class="adv-search-bar"> 
+                        <small>this exact word or phrase:</small>
+                        <input type="text" name="as_epq" class="">
+                    </div>
+                    <div class="adv-search-bar">
+                        <small>any of these words:</small>
+                        <input type="text" name="as_oq" class="">
+                    </div>
+                    <div class="adv-search-bar">
+                        <small>none of these words:</small>
+                        <input type="text" name="as_eq" class="">
+                    </div>
+                    <input class="adv-search-button" type="submit" value="Advanced Search">
+                </div>
+                <div class="definitions">
+                    <div class="definition-bar">
+                        <small>Type the important words:</small>
+                        <small style="font-family:'Courier New', Courier, monospace">tri-colour rat terrier</small>
+                    </div>
+                    <div class="definition-bar">
+                        <small>Put exact words in quotes:</small>
+                        <small style="font-family:'Courier New', Courier, monospace">"rat terrier"</small>
+                    </div>
+                    <div class="definition-bar">
+                        <small>Type </small>
+                        <small style="font-family:'Courier New', Courier, monospace">OR</small>
+                        <small> between all the words you want:</small>
+                        <small style="font-family:'Courier New', Courier, monospace"> miniature OR standard</small>    
+                    </div>
+                    <div class="definition-bar">
+                        <small>Put a minus sign just before words that you don't want: </small>
+                        <small style="font-family:'Courier New', Courier, monospace">-rodent, -"Jack Russell"</small>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>
